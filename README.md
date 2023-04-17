@@ -1,2 +1,5 @@
 # Studie-Richting
-Project
+Project Informatica
+
+Rares - HTML/CSS
+Tom - Javascript/JSON
