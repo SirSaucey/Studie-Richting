@@ -2,4 +2,5 @@
 Project Informatica
 
 Rares - HTML/CSS
+
 Tom - Javascript/JSON
