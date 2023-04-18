@@ -48,33 +48,62 @@
         "title": "3e graad",
         "options": [
           {
-            "subtitle": "ASO",
-            "choices": [
-              "Latijn-wiskunde",
-              "Latijn-moderne talen",
-              "Economie-wiskunde",
-              "Economie-moderne talen",
-              "Wetenschappen-wiskunde",
-              "Humane wetenschappen",
-              "Sportwetenschappen"
-            ]
-          },
-          {
-            "subtitle": "TSO",
-            "choices": [
-              "Informaticabeheer",
-              "Lichamelijke opvoeding en sport"
-            ]
-          },
-          {
-            "subtitle": "BSO",
-            "choices": [
-              "Verzorging",
-              "Kinderzorg",
-              "Thuis - en bejaardenzorg"
-            ]
-          }
-        ]
+        "title": "Latijn-moderne talen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Latijn-wiskunde",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Sportwetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Wetenschappen-wiskunde",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Economie-moderne talen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Economie-wiskunde",
+        "subtitle": "(Doorstroom)"
+      },
+       {
+        "title": "Economie-moderne talen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Economie-wiskunde",
+        "subtitle": "(Doorstroom)"
+      },     
+      {
+        "title": "Humane wetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Informatica- en communicatiewetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Sportbegeleiding",
+        "subtitle": "(Dubbele)"
+      },
+      {
+        "title": "Applicatie- en databeheer",
+        "subtitle": "(Dubbele )"
+      },
+            {
+        "title": "Gezondheidszorg",
+        "subtitle": "(Dubbele)"
+      },
+      {
+        "title": "Basiszorg en ondersteuning",
+        "subtitle": "(Arbeidsmarktgerichte)"
+      }
+    ],
       }
     ]
   }
