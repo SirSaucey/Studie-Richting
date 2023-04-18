@@ -1,0 +1,81 @@
+[
+{
+    "title": "2e graad",
+    "options": [
+      {
+        "title": "Economische Wetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Humane Wetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Latijn",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Natuurwetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Sportwetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Technologische Wetenschappen",
+        "subtitle": "(Doorstroom)"
+      },
+      {
+        "title": "Bedrijf en Organisatie",
+        "subtitle": "(Dubbele finaliteit)"
+      },
+      {
+        "title": "Sport",
+        "subtitle": "(Dubbele finaliteit)"
+      },
+      {
+        "title": "Zorg en Welzijn",
+        "subtitle": "(Arbeidsgerichte finaliteit)"
+      },
+      {
+        "title": "Maatschappij en welzijn",
+        "subtitle": "(Dubbele finaliteit)"
+      }
+    ],
+    "grades": [
+      {
+        "title": "3e graad",
+        "options": [
+          {
+            "subtitle": "ASO",
+            "choices": [
+              "Latijn-wiskunde",
+              "Latijn-moderne talen",
+              "Economie-wiskunde",
+              "Economie-moderne talen",
+              "Wetenschappen-wiskunde",
+              "Humane wetenschappen",
+              "Sportwetenschappen"
+            ]
+          },
+          {
+            "subtitle": "TSO",
+            "choices": [
+              "Informaticabeheer",
+              "Lichamelijke opvoeding en sport"
+            ]
+          },
+          {
+            "subtitle": "BSO",
+            "choices": [
+              "Verzorging",
+              "Kinderzorg",
+              "Thuis - en bejaardenzorg"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

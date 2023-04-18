@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c3004a;
+    margin-bottom: 20px;
+  }
+  
+  .options li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .options li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .options li:hover {
+    cursor: pointer;
+  }
+  
+  .options li a:hover {
+    color: #c3004a;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .options li a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* ASO, TSO, BSO options */
+  .aso li:hover a,
+  .tso li:hover a,
+  .bso li:hover a {
+    color: white;
+    background-color: #c3004a;
+  }
+  
+  .aso li a,
+  .tso li a,
+  .bso li a {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .aso li a:hover,
+  .tso li a:hover,
+  .bso li a:hover {
+    color: white;
+    background-color: #c3004a;
+    cursor: pointer;
+  }
+  
