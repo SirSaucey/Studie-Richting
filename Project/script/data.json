@@ -45,9 +45,9 @@
     ],
     "grades": [
       {
-        "title": "3e graad",
+      "title": "3e graad",
         "options": [
-          {
+      {
         "title": "Latijn-moderne talen",
         "subtitle": "(Doorstroom)"
       },
@@ -70,15 +70,7 @@
       {
         "title": "Economie-wiskunde",
         "subtitle": "(Doorstroom)"
-      },
-       {
-        "title": "Economie-moderne talen",
-        "subtitle": "(Doorstroom)"
-      },
-      {
-        "title": "Economie-wiskunde",
-        "subtitle": "(Doorstroom)"
-      },     
+      },    
       {
         "title": "Humane wetenschappen",
         "subtitle": "(Doorstroom)"
