@@ -4,15 +4,7 @@
     "options": [
       {
         "title": "Economische Wetenschappen",
-        "subtitle": "(Doorstroom)",
-        "AansluitendeOpleiding": [
-          {
-            "Naam": "Economie-moderne talen",
-          },
-          {
-             "Naam": "Economie-Wiskunde",
-          },
-         ],
+        "subtitle": "(Doorstroom)"
       },
       {
         "title": "Humane Wetenschappen",
