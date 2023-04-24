@@ -53,30 +53,53 @@
     color: black;
     text-decoration: none;
   }
-  
-  /* ASO, TSO, BSO options */
-  .aso li:hover a,
-  .tso li:hover a,
-  .bso li:hover a {
-    color: white;
-    background-color: #c3004a;
+  .global-footer {
+    position: relative;
+    height: 90px;
   }
-  
-  .aso li a,
-  .tso li a,
-  .bso li a {
-    padding: 8px 16px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.2s ease-in-out;
+
+  .global-footer .vlaanderenlogo {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
+    background-image: url(/img/vlaanderen-logo-small.png);
+    height: 75px;
+    width: 75px;
   }
-  
-  .aso li a:hover,
-  .tso li a:hover,
-  .bso li a:hover {
-    color: white;
-    background-color: #c3004a;
-    cursor: pointer;
+
+  .global-footer .logo {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    margin-top: 40px;
+    background-image: url(/img/logo_mobile.png);
+    width: 150px;
+    height: 42px;
   }
-  
+
+  .global-footer .silhouetten {
+    display: none;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    margin-top: 40px;
+    width: 480px;
+    height: 157px;
+  }
+
+  @media (min-width: 992px) {
+    .global-footer .logo {
+      margin-left: 30px;
+      background-image: url(/img/logo.png);
+      width: 178px;
+      height: 50px;
+    }
+
+    .global-footer .silhouetten {
+      display: block;
+      background-image: url(/img/mannekes-silhouetten.png);
+    }
+  }
