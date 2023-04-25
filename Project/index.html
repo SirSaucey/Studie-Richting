@@ -5,21 +5,42 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="column" id="column1">
-      <h2> 2e Graad </h2>
-      <ul class="options" id="options1">
-      </ul>
-    </div>
-    <div class="column" id="column2">
-      <h2> 3e Graad </h2>
-      <ul class="options" id="options2">
-      </ul>
+  <!-- Header -->
+<nav>
+  <div class="wrapper">
+    <div class="nav-container" style="display: block;">
+        <a class="logo" title="Terug naar de startpagina" href="/"></a>
+        <div class="menu-right">
+            <div id="main-menu-trigger" class="menu-right-button">
+                <a href="#" title="Klik hier om het menu te openen"><span></span></a>
+            </div>
+                <div class="menu-right-button">
+                    <form action="/zoeken/">
+                        <input type="text" name="q" value="" placeholder="Tom <3 Rares">
+                        <button type="submit" value="Zoeken"></button>
+                    </form>
+                </div>
+        </div>
     </div>
   </div>
+</nav>
+<!-- Media -->
+<div class="container">
+  <div class="column" id="column1">
+    <h2> 2e Graad </h2>
+    <ul class="options" id="options1">
+    </ul>
+  </div>
+  <div class="column" id="column2">
+    <h2> 3e Graad </h2>
+    <ul class="options" id="options2">
+    </ul>
+  </div>
+</div>
+  <!-- Footer -->
   <div class="global-footer">
-    <a class="vlaanderenlogo" href="http://www.vlaanderen.be/" title="Naar vlaanderen.be"></a>
-    <a class="logo" title="Terug naar de startpagina" href="/"></a>
+    <a class="vlaanderenlogo"></a>
+    <a class="logo"></a>
     <div class="silhouetten"></div>
   </div>
   <script src="script/script.js"></script>

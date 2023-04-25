@@ -5,6 +5,130 @@
     font-family: 'Open Sans', sans-serif;
   }
   
+  /* Header */
+.wrapper {
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+nav .wrapper .nav-container {
+  background-image: url(../img/lines.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+nav .wrapper .nav-container:before, nav .wrapper .nav-container:after {
+  content: " ";
+  display: table;
+}
+
+nav .wrapper .nav-container:before, nav .wrapper .nav-container:after {
+  content: " ";
+  display: table;
+}
+
+@media (min-width: 768px) {
+  nav .logo {
+      margin: 20px 20px 25px;
+      background-image: url(../img/logo.png);
+  }
+}
+nav .logo {
+    background-image: url(../img/logo_mobile.png);
+    background-repeat: no-repeat;
+    width: 178px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin: 20px 0 25px 15px;
+}
+
+@media (min-width: 768px) {
+  nav .menu-right {
+      margin: 20px 20px 0;
+  }
+}
+
+nav .menu-right {
+    float: right;
+    margin: 20px 0 0;
+}
+
+nav .wrapper .nav-container:after {
+  clear: both;
+}
+nav .wrapper .nav-container:before, nav .wrapper .nav-container:after {
+  content: " ";
+  display: table;
+}
+nav .wrapper .nav-container:after {
+  clear: both;
+}
+nav .wrapper .nav-container:before, nav .wrapper .nav-container:after {
+  content: " ";
+  display: table;
+}
+
+@media (min-width: 768px) {
+  nav .menu-right .menu-right-button {
+      padding: 10px 20px;
+      border-radius: 30px;
+  }
+}
+
+nav .menu-right .menu-right-button {
+    float: right;
+    height: 41px;
+    margin: 3px 5px 0;
+    color: #c3004a;
+    display: block;
+    border: 1px solid #c3004a;
+    font-size: 1em;
+    padding: 9px;
+    border-radius: 100px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  nav .menu-right .menu-right-button a {
+      background-image: url(../img/menuburger_icon.png);
+      width: auto;
+  }
+}
+
+nav .menu-right .menu-right-button a {
+    color: #c3004a;
+    text-decoration: none;
+    display: inline-block;
+    background-image: url(../img/menuburger_icon.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-position: center right;
+    width: 20px;
+}
+
+nav .menu-right .menu-right-button form {
+  position: relative;
+  top: -3px;
+}
+
+nav .menu-right .menu-right-button button {
+  outline: none;
+  border: 0 none;
+  background-image: url(../img/search_icon.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+
+/* Media */
   .container {
     display: flex;
     justify-content: center;
@@ -53,53 +177,73 @@
     color: black;
     text-decoration: none;
   }
-  .global-footer {
-    position: relative;
-    height: 90px;
-  }
 
+/* Footer */
+@media (min-width: 992px) {
+  .global-footer {
+      height: 170px;
+  }
+}
+
+.global-footer {
+  position: relative;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 992px) {
   .global-footer .vlaanderenlogo {
+      background-image: url(../img/vlaanderen-logo.png);
+      width: 103px;
+      height: 101px;
+  }
+}
+.global-footer .vlaanderenlogo {
     display: block;
     position: absolute;
     left: 0;
     bottom: 0;
     margin-top: 40px;
-    background-image: url(/img/vlaanderen-logo-small.png);
+    background-image: url(../img/vlaanderen-logo-small.png);
     height: 75px;
     width: 75px;
-  }
+}
 
+@media (min-width: 992px) {
   .global-footer .logo {
+      margin-left: 30px;
+      background-image: url(../img/logo.png);
+      width: 178px;
+      height: 50px;
+  }
+}
+
+.global-footer .logo {
     display: block;
     position: absolute;
-    bottom: 10px;
-    left: 100px;
+    bottom: 20px;
+    float: left;
+    left: 125px;
     margin-top: 40px;
-    background-image: url(/img/logo_mobile.png);
+    background-image: url(../img/logo_mobile.png);
+    left: 100px;
+    bottom: 10px;
     width: 150px;
     height: 42px;
-  }
-
+}
+  
+@media (min-width: 992px) {
   .global-footer .silhouetten {
-    display: none;
+      background-image: url(../img/mannekes-silhouetten.png);
+      display: block;
+  }
+}
+
+.global-footer .silhouetten {
     position: absolute;
     right: 5px;
     bottom: 5px;
     margin-top: 40px;
     width: 480px;
     height: 157px;
-  }
-
-  @media (min-width: 992px) {
-    .global-footer .logo {
-      margin-left: 30px;
-      background-image: url(/img/logo.png);
-      width: 178px;
-      height: 50px;
-    }
-
-    .global-footer .silhouetten {
-      display: block;
-      background-image: url(/img/mannekes-silhouetten.png);
-    }
-  }
+}
