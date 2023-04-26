@@ -4,43 +4,53 @@
     "options": [
       {
         "title": "Economische Wetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "eco"
       },
       {
         "title": "Humane Wetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "hum"
       },
       {
         "title": "Latijn",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "lat"
       },
       {
         "title": "Natuurwetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "natu"
       },
       {
         "title": "Sportwetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "swet"
       },
       {
         "title": "Technologische Wetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "tech"
       },
       {
         "title": "Bedrijf en Organisatie",
-        "subtitle": "(Dubbele finaliteit)"
+        "subtitle": "(Dubbele finaliteit)",
+        "id": "bedr"
       },
       {
         "title": "Sport",
-        "subtitle": "(Dubbele finaliteit)"
+        "subtitle": "(Dubbele finaliteit)",
+        "id": "sport"
       },
       {
         "title": "Zorg en Welzijn",
-        "subtitle": "(Arbeidsgerichte finaliteit)"
+        "subtitle": "(Arbeidsgerichte finaliteit)",
+        "id": "zorg"
       },
       {
         "title": "Maatschappij en welzijn",
-        "subtitle": "(Dubbele finaliteit)"
+        "subtitle": "(Dubbele finaliteit)",
+        "id": "maat"
       }
     ],
     "grades": [
@@ -49,54 +59,66 @@
         "options": [
       {
         "title": "Latijn-moderne talen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "lat"
       },
       {
         "title": "Latijn-wiskunde",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "lat"
       },
       {
         "title": "Sportwetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "swet"
       },
       {
         "title": "Wetenschappen-wiskunde",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "lat"
       },
       {
         "title": "Economie-moderne talen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "eco"
       },
       {
         "title": "Economie-wiskunde",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "eco"
       },    
       {
         "title": "Humane wetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "hum"
       },
       {
         "title": "Informatica- en communicatiewetenschappen",
-        "subtitle": "(Doorstroom)"
+        "subtitle": "(Doorstroom)",
+        "id": "tech"
       },
       {
         "title": "Sportbegeleiding",
-        "subtitle": "(Dubbele)"
+        "subtitle": "(Dubbele)",
+        "id": "sport"
       },
       {
         "title": "Applicatie- en databeheer",
-        "subtitle": "(Dubbele )"
+        "subtitle": "(Dubbele)",
+        "id": "tech"
       },
             {
         "title": "Gezondheidszorg",
-        "subtitle": "(Dubbele)"
+        "subtitle": "(Dubbele)",
+        "id": "zorg"
       },
       {
         "title": "Basiszorg en ondersteuning",
-        "subtitle": "(Arbeidsmarktgerichte)"
-            }
-        ]
-      }
-    ]
-  }
+        "subtitle": "(Arbeidsmarktgerichte)",
+        "id": "maat"
+        }
+      ]
+    }
+]
+}
 ]
