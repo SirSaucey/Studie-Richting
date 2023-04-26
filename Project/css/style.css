@@ -133,7 +133,8 @@ nav .menu-right .menu-right-button button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 842px;
+    height: 89.8vh;
+    max-height: 89vh;
   }
   
   .column {

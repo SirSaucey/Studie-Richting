@@ -5,52 +5,52 @@
       {
         "title": "Economische Wetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "eco"
+        "className": "eco"
       },
       {
         "title": "Humane Wetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "hum"
+        "className": "hum"
       },
       {
         "title": "Latijn",
         "subtitle": "(Doorstroom)",
-        "id": "lat"
+        "className": "lat"
       },
       {
         "title": "Natuurwetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "natu"
+        "className": "natu"
       },
       {
         "title": "Sportwetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "swet"
+        "className": "swet"
       },
       {
         "title": "Technologische Wetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "tech"
+        "className": "tech"
       },
       {
         "title": "Bedrijf en Organisatie",
         "subtitle": "(Dubbele finaliteit)",
-        "id": "bedr"
+        "className": "bedr"
       },
       {
         "title": "Sport",
         "subtitle": "(Dubbele finaliteit)",
-        "id": "sport"
+        "className": "sport"
       },
       {
         "title": "Zorg en Welzijn",
         "subtitle": "(Arbeidsgerichte finaliteit)",
-        "id": "zorg"
+        "className": "zorg"
       },
       {
         "title": "Maatschappij en welzijn",
         "subtitle": "(Dubbele finaliteit)",
-        "id": "maat"
+        "className": "maat"
       }
     ],
     "grades": [
@@ -60,62 +60,62 @@
       {
         "title": "Latijn-moderne talen",
         "subtitle": "(Doorstroom)",
-        "id": "lat"
+        "className": "lat"
       },
       {
         "title": "Latijn-wiskunde",
         "subtitle": "(Doorstroom)",
-        "id": "lat"
+        "className": "lat"
       },
       {
         "title": "Sportwetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "swet"
+        "className": "swet"
       },
       {
         "title": "Wetenschappen-wiskunde",
         "subtitle": "(Doorstroom)",
-        "id": "lat"
+        "className": "natu"
       },
       {
         "title": "Economie-moderne talen",
         "subtitle": "(Doorstroom)",
-        "id": "eco"
+        "className": "eco"
       },
       {
         "title": "Economie-wiskunde",
         "subtitle": "(Doorstroom)",
-        "id": "eco"
+        "className": "eco"
       },    
       {
         "title": "Humane wetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "hum"
+        "className": "hum"
       },
       {
         "title": "Informatica- en communicatiewetenschappen",
         "subtitle": "(Doorstroom)",
-        "id": "tech"
+        "className": "tech"
       },
       {
         "title": "Sportbegeleiding",
         "subtitle": "(Dubbele)",
-        "id": "sport"
+        "className": "sport"
       },
       {
         "title": "Applicatie- en databeheer",
         "subtitle": "(Dubbele)",
-        "id": "tech"
+        "className": "tech"
       },
             {
         "title": "Gezondheidszorg",
         "subtitle": "(Dubbele)",
-        "id": "zorg"
+        "className": "zorg"
       },
       {
         "title": "Basiszorg en ondersteuning",
         "subtitle": "(Arbeidsmarktgerichte)",
-        "id": "maat"
+        "className": "maat"
         }
       ]
     }
